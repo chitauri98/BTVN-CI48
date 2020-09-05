@@ -1,0 +1,204 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, arial, sans-serif, "lucida grande";
+}
+a {
+  text-decoration: none;
+  color: #696969;
+}
+.container {
+  width: 1200px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container .header .title {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.container .header .title h1 {
+  color: #696969;
+  cursor: pointer;
+}
+.container .header .title h1:hover {
+  color: #818753;
+}
+.container .header .title .icons #fb {
+  color: blue;
+  font-size: 20px;
+  cursor: pointer;
+}
+.container .header .title .icons #tw {
+  color: rgb(70, 153, 208);
+  font-size: 20px;
+  cursor: pointer;
+}
+.container .header .title .icons #gp {
+  color: rgb(168, 38, 38);
+  font-size: 20px;
+  cursor: pointer;
+}
+.container .header .menu {
+  display: flex;
+  justify-content: space-around;
+  background: #726a6a;
+  font-size: 15px;
+  height: 30px;
+  margin-top: 15px;
+}
+
+.container .header .menu div {
+  width: 300px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  color: #ffffff;
+  cursor: pointer;
+}
+.container .header .menu div:hover {
+  background-color: rgb(34, 31, 31);
+}
+#s1 {
+  border-right: solid 1px rgb(39, 37, 37);
+}
+#s2 {
+  border-right: solid 1px rgb(39, 37, 37);
+}
+#s3 {
+  border-right: solid 1px rgb(39, 37, 37);
+}
+.container .content .first-content {
+  background: url(./images/galaxy.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  align-items: center;
+  cursor: pointer;
+}
+.container .content .first-content .radius {
+  width: 300px;
+  height: 300px;
+  background: rgb(99, 76, 76);
+  -moz-border-radius: 150px;
+  -webkit-border-radius: 150px;
+  --border-radius: 150px;
+  border-radius: 150px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+  color: aliceblue;
+  margin-right: 70px;
+  font-family: "Indie Flower", cursive;
+  cursor: pointer;
+}
+.container .content .second-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.container .content .second-content .content-one .background-tit1 {
+  background: url(./images/cat.jpg);
+  height: 350px;
+  width: 350px;
+  background-size: cover;
+  display: flex;
+  cursor: pointer;
+  justify-content: start;
+}
+.container .content .second-content .content-two .background-tit2 {
+  background: url(./images/cat.jpg);
+  height: 350px;
+  width: 350px;
+  background-size: cover;
+  display: flex;
+  cursor: pointer;
+  justify-content: start;
+}
+.container .content .second-content .content-three .background-tit3 {
+  background: url(./images/cat.jpg);
+  height: 350px;
+  width: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: start;
+  cursor: pointer;
+}
+.container .content .second-content .content-one {
+  margin-left: 15px;
+  margin-right: 10px;
+}
+.container .content .second-content .content-two {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.container .content .second-content .content-three {
+  margin-left: 10px;
+}
+.container .content .second-content .content-one .background-tit1 .title1 {
+  background: rgb(83, 76, 76);
+  width: 300px;
+  height: 30px;
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-family: "Indie Flower", cursive;
+  color: aliceblue;
+  justify-content: center;
+  font-size: 20px;
+}
+.container .content .second-content .content-two .background-tit2 .title2 {
+  background: rgb(83, 76, 76);
+  width: 300px;
+  height: 30px;
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-family: "Indie Flower", cursive;
+  color: aliceblue;
+  justify-content: center;
+  font-size: 20px;
+}
+.container .content .second-content .content-three .background-tit3 .title3 {
+  background: rgb(83, 76, 76);
+  width: 300px;
+  height: 30px;
+  margin-top: 20px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-family: "Indie Flower", cursive;
+  color: aliceblue;
+  justify-content: center;
+  font-size: 20px;
+}
+.container .content .second-content a:hover {
+  color: black;
+}
+.container .footer {
+  background: #696969;
+  width: auto;
+  height: 50px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 20px;
+}

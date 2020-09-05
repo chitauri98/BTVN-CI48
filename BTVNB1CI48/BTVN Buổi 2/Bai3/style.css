@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: tahoma, arial, sans-serif, "lucida grande";
+}
+.container {
+  background: linear-gradient(#7b45b7, #36b5d8);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .register-center {
+  border: solid 1px #7b45b7;
+  width: 400px;
+  height: 600px;
+  border-radius: 5%;
+}
+.container .register-center .header {
+  background: #242156;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.container .register-center .header h3 {
+  color: #ffffff;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-family: "Indie Flower", cursive;
+}
+.container .register-center .register-form {
+  background: #2a2a68;
+  height: 550px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.container .register-center .register-form .input-wrapper {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.container .register-center .register-form .input-wrapper .user-input {
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+}
+.container .register-center .register-form .form-action {
+  padding: 20px;
+}
+input[type="checkbox"] {
+  display: none;
+}
+label {
+  position: relative;
+  padding-left: 20px;
+  margin: 50px;
+}
+span:before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  background-color: #ffffff;
+  box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, 0.3),
+    0px 1px 0px 0px rgba(255, 255, 255, 0.8);
+  border-radius: 3px;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+}
+input[type="checkbox"]:checked + label span:before {
+  content: "\2713";
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  font-size: 15px;
+  color: black;
+  text-align: center;
+  line-height: 17px;
+}
+.container .register-center .register-form p {
+  color: #ffffff;
+  padding: 15px;
+  font-size: 12px;
+}
+.container .register-center .register-form .btn-register {
+  margin-top: 70px;
+  padding-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.container .register-center .register-form .btn-register .btn {
+  width: 120px;
+  height: 35px;
+  font-size: 23px;
+  background: linear-gradient(#5fae2e, #4e9120);
+  color: #ffffff;
+  border-radius: 8px;
+  border: solid 1px #4e9120;
+  font-family: "Indie Flower", cursive;
+  cursor: pointer;
+}
+.container .footer {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+  color: #ffffff;
+  font-family: "Indie Flower", cursive;
+  font-size: 30px;
+  cursor: pointer;
+}
